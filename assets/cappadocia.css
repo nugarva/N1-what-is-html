@@ -1,10 +1,85 @@
 @font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Pretendard Medium'), url('./woff2-subset/Pretendard-Medium.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-Medium.subset.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 700;
+	font-display: swap;
+	src: local('Pretendard Bold'), url('./woff2-subset/Pretendard-Bold.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-Bold.subset.woff') format('woff');
+}
+
+@font-face {
   font-family: 'Nanum Pen Script';
   src: url(fonts/NanumPenScript-Regular.ttf);
 }
 
+
 body {
   background-image:url(images/bg-01.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position:center center;
+  background-color:#15181e;
+  text-align: center;
+  padding-top:6vw;
+  height: 100vw;
+}
+
+h1 {
+  font-family: Pretendard, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size:8vw;
+  margin: 0;
+}
+
+h2 {
+  font-family: Pretendard, sans-serif;
+  color:#555;
+  font-weight: 400;
+  text-align: center;
+  font-size:2.8vw;
+  margin: 0 0 6vw 0;
+}
+
+p {
+  font-family: Pretendard, sans-serif;
+  color:#333;
+  display: block;
+  width: 60vw;
+  margin: 0 auto;
+  text-align: left;
+  font-size:2.8vw;
+  padding:0 2vw;
+  margin-bottom: 6vw;
+  text-shadow: 0px 0px 2vw rgba(255,255,255,1);
+  line-height: 1.4;
+}
+
+p + p {
+  margin-top: -2vw;
+}
+
+a {
+  font-family: Nanum Pen Script, sans-serif;
+  text-decoration: none;
+  color: #d3ddee;
+  background-color: #2d63c8;
+  font-size: 3.2vw;
+  border: 0px solid #2d63c8;
+  border-radius: 15px;
+  padding: 1vw 2vw;
+  cursor: pointer
+}
+a:hover {
+  color: #2d63c8;
+  background-color: #ffffff;
+}
+
+a::after {
+  content: "🔎"
 }
