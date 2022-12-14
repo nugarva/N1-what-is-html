@@ -1,0 +1,19 @@
+{
+  "name": "n1-what-is-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nugarva/N1-what-is-html.git"
+  },
+  "author": "AHN HO JUNG (nougatvar+manggle@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nugarva/N1-what-is-html/issues"
+  },
+  "homepage": "https://github.com/nugarva/N1-what-is-html#readme"
+}
