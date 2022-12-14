@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Nanum Pen Script';
+  src: url(fonts/NanumPenScript-Regular.ttf);
+}
+
+body {
+  background-image:url(images/bg-01.jpg);
+  background-size: cover;
+  background-position:center center;
+}
