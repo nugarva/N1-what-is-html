@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx live-server"
+    "start": "npx live-server --port=80 --watch=."
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nugarva/N1-what-is-html/issues"
   },
-  "homepage": "https://github.com/nugarva/N1-what-is-html#readme"
+  "homepage": "https://github.com/nugarva/N1-what-is-html#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
 }
