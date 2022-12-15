@@ -1,9 +1,9 @@
 ## 어서오세요
-Youtube Manggle 입니다.
-HTML을 연습하기 위해 만들어졌습니다.
+Manggle 입니다.
+HTML을 이해하기 위해 만들어졌습니다.
 
-- index.html 만들기
-- snippet 따라하면서 html 작성해보기
+- index.html 파일 만들기
+- snippet 순서대로 따라하면서 index.html 완성하기
 
 ## 오른쪽 화면이 정상적으로 보이지 않는 경우
 하단 terminal 화면을 클릭한 후 Ctrl+c 키를 누른 후 
